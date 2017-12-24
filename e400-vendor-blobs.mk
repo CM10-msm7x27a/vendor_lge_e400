@@ -25,18 +25,21 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
 	vendor/lge/e400/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/lge/e400/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+	vendor/lge/e400/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/lge/e400/proprietary/lib/libnv.so:system/lib/libnv.so \
 	vendor/lge/e400/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
 	vendor/lge/e400/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/lge/e400/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	vendor/lge/e400/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
 	vendor/lge/e400/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+	vendor/lge/e400/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 	vendor/lge/e400/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
 	vendor/lge/e400/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
 	vendor/lge/e400/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
 	vendor/lge/e400/proprietary/lib/libqueue.so:system/lib/libqueue.so \
 	vendor/lge/e400/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
 	vendor/lge/e400/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
+	vendor/lge/e400/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
 	vendor/lge/e400/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/lge/e400/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
 	vendor/lge/e400/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
@@ -54,6 +57,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
 	vendor/lge/e400/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
 	vendor/lge/e400/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+	vendor/lge/e400/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
 	vendor/lge/e400/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/lge/e400/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/lge/e400/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
@@ -62,6 +66,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
 	vendor/lge/e400/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/lge/e400/proprietary/lib/libcm.so:system/lib/libcm.so \
+	vendor/lge/e400/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
 	vendor/lge/e400/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
 	vendor/lge/e400/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
 	vendor/lge/e400/proprietary/lib/libauth.so:system/lib/libauth.so \
@@ -70,7 +75,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/lge/e400/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/lge/e400/proprietary/lib/libidl.so:system/lib/libidl.so \
-	vendor/lge/e400/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
 	vendor/lge/e400/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
 	vendor/lge/e400/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
 	vendor/lge/e400/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
@@ -86,7 +90,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	vendor/lge/e400/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
 	vendor/lge/e400/proprietary/lib/hw/sensors.e0.so:system/lib/hw/sensors.e0.so \
-	vendor/lge/e400/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
 	vendor/lge/e400/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
 	vendor/lge/e400/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/lge/e400/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
