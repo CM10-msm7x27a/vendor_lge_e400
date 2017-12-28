@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
 	vendor/lge/e400/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
 	vendor/lge/e400/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+	vendor/lge/e400/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
 	vendor/lge/e400/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
 	vendor/lge/e400/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/lge/e400/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -37,6 +38,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
 	vendor/lge/e400/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
 	vendor/lge/e400/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+	vendor/lge/e400/proprietary/lib/lib_LG_fastaf.so:system/lib/lib_LG_fastaf.so \
 	vendor/lge/e400/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
 	vendor/lge/e400/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
 	vendor/lge/e400/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
