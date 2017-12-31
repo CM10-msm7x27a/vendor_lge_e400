@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
 	vendor/lge/e400/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
 	vendor/lge/e400/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+	vendor/lge/e400/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
 	vendor/lge/e400/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/lge/e400/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
 	vendor/lge/e400/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
@@ -80,6 +81,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/e400/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
 	vendor/lge/e400/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
 	vendor/lge/e400/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+	vendor/lge/e400/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/lge/e400/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/lge/e400/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/lge/e400/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
